@@ -44,3 +44,29 @@ header {
 }
 
 /* Header Section Style End  */
+
+/* card section custom design */
+.bg-card-section {
+    background-color: rgba(27, 26, 26, 0.849);
+}
+
+.card-width {
+    width: 17rem;
+}
+
+/* selected 5 player style dom creatElement Style */
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #df5f29d5;
+    font-family: monospace;
+    font-size: larger;
+}
+
+
+
+.text-total-color {
+    color: #FF5E19;
+}
