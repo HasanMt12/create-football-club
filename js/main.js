@@ -31,18 +31,18 @@ function playerAdded() {
         
             
     `;
-        // Button desabled
+        // Button disabled
         playerAddList.appendChild(playerList);
         addSelectBtn.setAttribute("disabled", true)
 
-    document.getElementById("per-player-clculate-btn").addEventListener("click", function(){
+    document.getElementById("perPlayerCalculateBtn").addEventListener("click", function () {
         let perPlayer = getElementById("per-player", true);
-        let clculatePerPlayerPrice = perPlayer *  i;
+        let calculatePerPlayerPrice = perPlayer *  i;
 
          // display player expenses
         let playerExpenses = document.getElementById("player-expenses");
         let playerExpensesPrice = parseInt(playerExpenses.innerText);
-        playerExpenses.innerText = clculatePerPlayerPrice.toFixed(2);
+        playerExpenses.innerText = calculatePerPlayerPrice.toFixed(2);
 
         // Calculate Total
     document.getElementById("calculate-total").addEventListener("click", function(){
